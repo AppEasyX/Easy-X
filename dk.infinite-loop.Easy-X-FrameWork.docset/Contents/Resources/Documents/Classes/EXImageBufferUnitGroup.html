@@ -1,0 +1,1251 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="html/html; charset=utf-8" />
+		<title>EXImageBufferUnitGroup Class Reference</title>
+		<meta id="xcode-display" name="xcode-display" content="render"/>
+		<link rel="stylesheet" type="text/css" href="../css/styles.css" media="all" />
+		<link rel="stylesheet" type="text/css" media="print" href="../css/stylesPrint.css" />
+		<meta name="generator" content="appledoc 2.1 (build 858)" />
+	</head>
+	<body>
+		<header id="top_header">
+			<div id="library" class="hideInXcode">
+				<h1><a id="libraryTitle" href="../index.html">Easy-X FrameWork </a></h1>
+				<a id="developerHome" href="../index.html">Infinite Loop</a>
+			</div>
+			
+			<div id="title" role="banner">
+				<h1 class="hideInXcode">EXImageBufferUnitGroup Class Reference</h1>
+			</div>
+			<ul id="headerButtons" role="toolbar">
+				<li id="toc_button">
+					<button aria-label="Show Table of Contents" role="checkbox" class="open" id="table_of_contents"><span class="disclosure"></span>Table of Contents</button>
+				</li>
+				<li id="jumpto_button" role="navigation">
+					<select id="jumpTo">
+	<option value="top">Jump To&#133;</option>
+	
+	<option value="overview">Overview</option>
+	
+	
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+	
+	
+	
+	<option value="properties">Properties</option>
+	
+	<option value="//api/name/bufferUnitObjArr">&nbsp;&nbsp;&nbsp;&nbsp;bufferUnitObjArr</option>
+	
+	<option value="//api/name/unitGroupDataSource">&nbsp;&nbsp;&nbsp;&nbsp;unitGroupDataSource</option>
+	
+	<option value="//api/name/unitGroupDelegate">&nbsp;&nbsp;&nbsp;&nbsp;unitGroupDelegate</option>
+	
+	<option value="//api/name/unitGroupKey">&nbsp;&nbsp;&nbsp;&nbsp;unitGroupKey</option>
+	
+	
+	
+	
+	
+	
+	<option value="instance_methods">Instance Methods</option>
+	
+	<option value="//api/name/beginReadAllDataSource">&nbsp;&nbsp;&nbsp;&nbsp;- beginReadAllDataSource</option>
+	
+	<option value="//api/name/beginReadDataSourceWithUnitIndex:">&nbsp;&nbsp;&nbsp;&nbsp;- beginReadDataSourceWithUnitIndex:</option>
+	
+	<option value="//api/name/beginReadDataSourceWithUnitRandomKey:">&nbsp;&nbsp;&nbsp;&nbsp;- beginReadDataSourceWithUnitRandomKey:</option>
+	
+	<option value="//api/name/initWithUnitGroupKey:">&nbsp;&nbsp;&nbsp;&nbsp;- initWithUnitGroupKey:</option>
+	
+	<option value="//api/name/pauseAll">&nbsp;&nbsp;&nbsp;&nbsp;- pauseAll</option>
+	
+	<option value="//api/name/pauseWithUnitIndex:">&nbsp;&nbsp;&nbsp;&nbsp;- pauseWithUnitIndex:</option>
+	
+	<option value="//api/name/pauseWithUnitRandomKey:">&nbsp;&nbsp;&nbsp;&nbsp;- pauseWithUnitRandomKey:</option>
+	
+	<option value="//api/name/runAll">&nbsp;&nbsp;&nbsp;&nbsp;- runAll</option>
+	
+	<option value="//api/name/runWithUnitIndex:">&nbsp;&nbsp;&nbsp;&nbsp;- runWithUnitIndex:</option>
+	
+	<option value="//api/name/runWithUnitRandomKey:">&nbsp;&nbsp;&nbsp;&nbsp;- runWithUnitRandomKey:</option>
+	
+	<option value="//api/name/stopAndClearAllBuffer">&nbsp;&nbsp;&nbsp;&nbsp;- stopAndClearAllBuffer</option>
+	
+	<option value="//api/name/stopReadAllDataSource">&nbsp;&nbsp;&nbsp;&nbsp;- stopReadAllDataSource</option>
+	
+	<option value="//api/name/stopReadDataSourceWithUnitIndex:">&nbsp;&nbsp;&nbsp;&nbsp;- stopReadDataSourceWithUnitIndex:</option>
+	
+	<option value="//api/name/stopReadDataSourceWithUnitRandomKey:">&nbsp;&nbsp;&nbsp;&nbsp;- stopReadDataSourceWithUnitRandomKey:</option>
+	
+	<option value="//api/name/stopWithUnitIndex:">&nbsp;&nbsp;&nbsp;&nbsp;- stopWithUnitIndex:</option>
+	
+	<option value="//api/name/stopWithUnitRandomKey:">&nbsp;&nbsp;&nbsp;&nbsp;- stopWithUnitRandomKey:</option>
+	
+	
+	
+</select>
+				</li>
+			</ul>
+		</header>
+		<nav id="tocContainer" class="isShowingTOC">
+			<ul id="toc" role="tree">
+				
+<li role="treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#overview">Overview</a></span></li>
+
+
+
+
+<li role="treeitem" id="task_treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#tasks">Tasks</a></span><ul>
+	
+</ul></li>
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#properties">Properties</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/bufferUnitObjArr">bufferUnitObjArr</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/unitGroupDataSource">unitGroupDataSource</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/unitGroupDelegate">unitGroupDelegate</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/unitGroupKey">unitGroupKey</a></span></li>
+	
+</ul></li>
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#instance_methods">Instance Methods</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/beginReadAllDataSource">beginReadAllDataSource</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/beginReadDataSourceWithUnitIndex:">beginReadDataSourceWithUnitIndex:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/beginReadDataSourceWithUnitRandomKey:">beginReadDataSourceWithUnitRandomKey:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/initWithUnitGroupKey:">initWithUnitGroupKey:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/pauseAll">pauseAll</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/pauseWithUnitIndex:">pauseWithUnitIndex:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/pauseWithUnitRandomKey:">pauseWithUnitRandomKey:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/runAll">runAll</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/runWithUnitIndex:">runWithUnitIndex:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/runWithUnitRandomKey:">runWithUnitRandomKey:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/stopAndClearAllBuffer">stopAndClearAllBuffer</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/stopReadAllDataSource">stopReadAllDataSource</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/stopReadDataSourceWithUnitIndex:">stopReadDataSourceWithUnitIndex:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/stopReadDataSourceWithUnitRandomKey:">stopReadDataSourceWithUnitRandomKey:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/stopWithUnitIndex:">stopWithUnitIndex:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/stopWithUnitRandomKey:">stopWithUnitRandomKey:</a></span></li>
+	
+</ul></li>
+
+
+			</ul>
+		</nav>
+		<article>
+			<div id="contents" class="isShowingTOC" role="main">
+				<a title="EXImageBufferUnitGroup Class Reference" name="top"></a>
+				<div class="main-navigation navigation-top">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="header">
+					<div class="section-header">
+						<h1 class="title title-header">EXImageBufferUnitGroup Class Reference</h1>
+					</div>		
+				</div>
+				<div id="container">	
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<td class="specification-title">Inherits from</td>
+	<td class="specification-value">NSObject</td>
+</tr><tr>
+	<td class="specification-title">Conforms to</td>
+	<td class="specification-value"><a href="../Protocols/EXImageBufferUnitDataSource.html">EXImageBufferUnitDataSource</a><br /><a href="../Protocols/EXImageBufferUnitDelegate.html">EXImageBufferUnitDelegate</a></td>
+</tr><tr>
+	<td class="specification-title">Declared in</td>
+	<td class="specification-value">EXImageBufferUnitGroup.h</td>
+</tr>
+						</tbody></table></div>
+					
+					
+					
+					
+					<div class="section section-overview">
+						<a title="Overview" name="overview"></a>
+						<h2 class="subtitle subtitle-overview">Overview</h2>
+						<p>图片加载工具的组工具，装载多个EXImageBufferUnit的实例（数组形式 ）<br/>
+-功能为便于管理一个界面多组图片的下载情况（例如列表上面为一组可以滚动的图片，列表本身也是一组图片）<br/>
+-此控件也可单独使用<br/>
+-通过模拟tableView的delegate和datasource方式来完成刷新数据（delegate sels）和读取数据源头（datasource sels）</p>
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						<h2 class="subtitle subtitle-tasks">Tasks</h2>
+						
+						
+						
+						
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/bufferUnitObjArr">&nbsp;&nbsp;bufferUnitObjArr</a></code>
+		<span class="tooltip"><p>datasource对应的数据，装载多个EXImageBufferUnit的实例</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/unitGroupKey">&nbsp;&nbsp;unitGroupKey</a></code>
+		<span class="tooltip"><p>唯一标示此unitGroup的标识</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/unitGroupDelegate">&nbsp;&nbsp;unitGroupDelegate</a></code>
+		<span class="tooltip"><p>刷新数据源的代理</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/unitGroupDataSource">&nbsp;&nbsp;unitGroupDataSource</a></code>
+		<span class="tooltip"><p>刷新读取的数据源的代理</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/initWithUnitGroupKey:">&ndash;&nbsp;initWithUnitGroupKey:</a></code>
+		<span class="tooltip"><p>初始化UnitGroup</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/runAll">&ndash;&nbsp;runAll</a></code>
+		<span class="tooltip"><p>run所有的unit</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/runWithUnitIndex:">&ndash;&nbsp;runWithUnitIndex:</a></code>
+		<span class="tooltip"><p>run bufferUnitObjArr对应索引unitIndex的unit</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/runWithUnitRandomKey:">&ndash;&nbsp;runWithUnitRandomKey:</a></code>
+		<span class="tooltip"><p>run bufferUnitObjArr对应uint key为randomKey的unit</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/stopAndClearAllBuffer">&ndash;&nbsp;stopAndClearAllBuffer</a></code>
+		<span class="tooltip"><p>stop所有的unit</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/stopWithUnitIndex:">&ndash;&nbsp;stopWithUnitIndex:</a></code>
+		<span class="tooltip"><p>stop bufferUnitObjArr对应索引unitIndex的unit</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/stopWithUnitRandomKey:">&ndash;&nbsp;stopWithUnitRandomKey:</a></code>
+		<span class="tooltip"><p>stop bufferUnitObjArr对应uint key为randomKey的unit</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/pauseAll">&ndash;&nbsp;pauseAll</a></code>
+		<span class="tooltip"><p>pause所有的unit</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/pauseWithUnitIndex:">&ndash;&nbsp;pauseWithUnitIndex:</a></code>
+		<span class="tooltip"><p>pause bufferUnitObjArr对应索引unitIndex的unit</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/pauseWithUnitRandomKey:">&ndash;&nbsp;pauseWithUnitRandomKey:</a></code>
+		<span class="tooltip"><p>pause bufferUnitObjArr对应uint key为randomKey的unit</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/stopReadAllDataSource">&ndash;&nbsp;stopReadAllDataSource</a></code>
+		<span class="tooltip"><p>stop读取所有的unit的dataSource</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/stopReadDataSourceWithUnitIndex:">&ndash;&nbsp;stopReadDataSourceWithUnitIndex:</a></code>
+		<span class="tooltip"><p>stop读取 bufferUnitObjArr对应索引unitIndex的unit</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/stopReadDataSourceWithUnitRandomKey:">&ndash;&nbsp;stopReadDataSourceWithUnitRandomKey:</a></code>
+		<span class="tooltip"><p>stop读取 bufferUnitObjArr对应uint key为randomKey的unit</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/beginReadAllDataSource">&ndash;&nbsp;beginReadAllDataSource</a></code>
+		<span class="tooltip"><p>begin读取所有的unit的dataSource</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/beginReadDataSourceWithUnitIndex:">&ndash;&nbsp;beginReadDataSourceWithUnitIndex:</a></code>
+		<span class="tooltip"><p>begin读取 bufferUnitObjArr对应索引unitIndex的unit</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/beginReadDataSourceWithUnitRandomKey:">&ndash;&nbsp;beginReadDataSourceWithUnitRandomKey:</a></code>
+		<span class="tooltip"><p>begin读取 bufferUnitObjArr对应uint key为randomKey的unit</p></span>
+	</span>
+	
+	
+</li>
+						</ul>
+						
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Properties" name="properties"></a>
+						<h2 class="subtitle subtitle-methods">Properties</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/bufferUnitObjArr" title="bufferUnitObjArr"></a>
+	<h3 class="subsubtitle method-title">bufferUnitObjArr</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>datasource对应的数据，装载多个EXImageBufferUnit的实例</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, assign) NSArray *bufferUnitObjArr</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>datasource对应的数据，装载多个EXImageBufferUnit的实例</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">EXImageBufferUnitGroup.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/unitGroupDataSource" title="unitGroupDataSource"></a>
+	<h3 class="subsubtitle method-title">unitGroupDataSource</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>刷新读取的数据源的代理</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, assign) id&lt;EXImageBufferUnitGroupDataSource&gt; unitGroupDataSource</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>刷新读取的数据源的代理</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">EXImageBufferUnitGroup.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/unitGroupDelegate" title="unitGroupDelegate"></a>
+	<h3 class="subsubtitle method-title">unitGroupDelegate</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>刷新数据源的代理</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, assign) id&lt;EXImageBufferUnitGroupDelegate&gt; unitGroupDelegate</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>刷新数据源的代理</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">EXImageBufferUnitGroup.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/unitGroupKey" title="unitGroupKey"></a>
+	<h3 class="subsubtitle method-title">unitGroupKey</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>唯一标示此unitGroup的标识</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, copy, readonly) NSString *unitGroupKey</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>唯一标示此unitGroup的标识</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">EXImageBufferUnitGroup.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Instance Methods" name="instance_methods"></a>
+						<h2 class="subtitle subtitle-methods">Instance Methods</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/beginReadAllDataSource" title="beginReadAllDataSource"></a>
+	<h3 class="subsubtitle method-title">beginReadAllDataSource</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>begin读取所有的unit的dataSource</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)beginReadAllDataSource</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">EXImageBufferUnitGroup.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/beginReadDataSourceWithUnitIndex:" title="beginReadDataSourceWithUnitIndex:"></a>
+	<h3 class="subsubtitle method-title">beginReadDataSourceWithUnitIndex:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>begin读取 bufferUnitObjArr对应索引unitIndex的unit</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)beginReadDataSourceWithUnitIndex:(int)<em>unitIndex</em></code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">EXImageBufferUnitGroup.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/beginReadDataSourceWithUnitRandomKey:" title="beginReadDataSourceWithUnitRandomKey:"></a>
+	<h3 class="subsubtitle method-title">beginReadDataSourceWithUnitRandomKey:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>begin读取 bufferUnitObjArr对应uint key为randomKey的unit</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)beginReadDataSourceWithUnitRandomKey:(NSString *)<em>randomKey</em></code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">EXImageBufferUnitGroup.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/initWithUnitGroupKey:" title="initWithUnitGroupKey:"></a>
+	<h3 class="subsubtitle method-title">initWithUnitGroupKey:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>初始化UnitGroup</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (id)initWithUnitGroupKey:(NSString *)<em>groupkey</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>groupkey</em></dt>
+			<dd><p>此group对应的key（唯一标示此group的标识）</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>UnitGroup</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">EXImageBufferUnitGroup.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/pauseAll" title="pauseAll"></a>
+	<h3 class="subsubtitle method-title">pauseAll</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>pause所有的unit</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)pauseAll</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">EXImageBufferUnitGroup.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/pauseWithUnitIndex:" title="pauseWithUnitIndex:"></a>
+	<h3 class="subsubtitle method-title">pauseWithUnitIndex:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>pause bufferUnitObjArr对应索引unitIndex的unit</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)pauseWithUnitIndex:(int)<em>unitIndex</em></code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">EXImageBufferUnitGroup.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/pauseWithUnitRandomKey:" title="pauseWithUnitRandomKey:"></a>
+	<h3 class="subsubtitle method-title">pauseWithUnitRandomKey:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>pause bufferUnitObjArr对应uint key为randomKey的unit</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)pauseWithUnitRandomKey:(NSString *)<em>randomKey</em></code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">EXImageBufferUnitGroup.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/runAll" title="runAll"></a>
+	<h3 class="subsubtitle method-title">runAll</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>run所有的unit</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)runAll</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">EXImageBufferUnitGroup.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/runWithUnitIndex:" title="runWithUnitIndex:"></a>
+	<h3 class="subsubtitle method-title">runWithUnitIndex:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>run bufferUnitObjArr对应索引unitIndex的unit</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)runWithUnitIndex:(int)<em>unitIndex</em></code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">EXImageBufferUnitGroup.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/runWithUnitRandomKey:" title="runWithUnitRandomKey:"></a>
+	<h3 class="subsubtitle method-title">runWithUnitRandomKey:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>run bufferUnitObjArr对应uint key为randomKey的unit</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)runWithUnitRandomKey:(NSString *)<em>randomKey</em></code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">EXImageBufferUnitGroup.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/stopAndClearAllBuffer" title="stopAndClearAllBuffer"></a>
+	<h3 class="subsubtitle method-title">stopAndClearAllBuffer</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>stop所有的unit</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)stopAndClearAllBuffer</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">EXImageBufferUnitGroup.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/stopReadAllDataSource" title="stopReadAllDataSource"></a>
+	<h3 class="subsubtitle method-title">stopReadAllDataSource</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>stop读取所有的unit的dataSource</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)stopReadAllDataSource</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">EXImageBufferUnitGroup.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/stopReadDataSourceWithUnitIndex:" title="stopReadDataSourceWithUnitIndex:"></a>
+	<h3 class="subsubtitle method-title">stopReadDataSourceWithUnitIndex:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>stop读取 bufferUnitObjArr对应索引unitIndex的unit</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)stopReadDataSourceWithUnitIndex:(int)<em>unitIndex</em></code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">EXImageBufferUnitGroup.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/stopReadDataSourceWithUnitRandomKey:" title="stopReadDataSourceWithUnitRandomKey:"></a>
+	<h3 class="subsubtitle method-title">stopReadDataSourceWithUnitRandomKey:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>stop读取 bufferUnitObjArr对应uint key为randomKey的unit</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)stopReadDataSourceWithUnitRandomKey:(NSString *)<em>randomKey</em></code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">EXImageBufferUnitGroup.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/stopWithUnitIndex:" title="stopWithUnitIndex:"></a>
+	<h3 class="subsubtitle method-title">stopWithUnitIndex:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>stop bufferUnitObjArr对应索引unitIndex的unit</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)stopWithUnitIndex:(int)<em>unitIndex</em></code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">EXImageBufferUnitGroup.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/stopWithUnitRandomKey:" title="stopWithUnitRandomKey:"></a>
+	<h3 class="subsubtitle method-title">stopWithUnitRandomKey:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>stop bufferUnitObjArr对应uint key为randomKey的unit</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)stopWithUnitRandomKey:(NSString *)<em>randomKey</em></code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">EXImageBufferUnitGroup.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+					</div>
+					
+					
+				</div>
+				<div class="main-navigation navigation-bottom">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="footer">
+					<hr />
+					<div class="footer-copyright">
+						<p><span class="copyright">&copy; 2013 Infinite Loop. All rights reserved. (Last updated: 2013-07-15)</span><br />
+						
+						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.1 (build 858)</a>.</span></p>
+						
+					</div>
+				</div>
+			</div>
+		</article>
+		<script type="text/javascript">
+			function jumpToChange()
+			{
+				window.location.hash = this.options[this.selectedIndex].value;
+			}
+			
+			function toggleTOC()
+			{
+				var contents = document.getElementById('contents');
+				var tocContainer = document.getElementById('tocContainer');
+				
+				if (this.getAttribute('class') == 'open')
+				{
+					this.setAttribute('class', '');
+					contents.setAttribute('class', '');
+					tocContainer.setAttribute('class', '');
+					
+					window.name = "hideTOC";
+				}
+				else
+				{
+					this.setAttribute('class', 'open');
+					contents.setAttribute('class', 'isShowingTOC');
+					tocContainer.setAttribute('class', 'isShowingTOC');
+					
+					window.name = "";
+				}
+				return false;
+			}
+			
+			function toggleTOCEntryChildren(e)
+			{
+				e.stopPropagation();
+				var currentClass = this.getAttribute('class');
+				if (currentClass == 'children') {
+					this.setAttribute('class', 'children open');
+				}
+				else if (currentClass == 'children open') {
+					this.setAttribute('class', 'children');
+				}
+				return false;
+			}
+			
+			function tocEntryClick(e)
+			{
+				e.stopPropagation();
+				return true;
+			}
+			
+			function init()
+			{
+				var selectElement = document.getElementById('jumpTo');
+				selectElement.addEventListener('change', jumpToChange, false);
+				
+				var tocButton = document.getElementById('table_of_contents');
+				tocButton.addEventListener('click', toggleTOC, false);
+				
+				var taskTreeItem = document.getElementById('task_treeitem');
+				if (taskTreeItem.getElementsByTagName('li').length > 0)
+				{
+					taskTreeItem.setAttribute('class', 'children');
+					taskTreeItem.firstChild.setAttribute('class', 'disclosure');
+				}
+				
+				var tocList = document.getElementById('toc');
+				
+				var tocEntries = tocList.getElementsByTagName('li');
+				for (var i = 0; i < tocEntries.length; i++) {
+					tocEntries[i].addEventListener('click', toggleTOCEntryChildren, false);
+				}
+				
+				var tocLinks = tocList.getElementsByTagName('a');
+				for (var i = 0; i < tocLinks.length; i++) {
+					tocLinks[i].addEventListener('click', tocEntryClick, false);
+				}
+				
+				if (window.name == "hideTOC") {
+					toggleTOC.call(tocButton);
+				}
+			}
+			
+			window.onload = init;
+			
+			// If showing in Xcode, hide the TOC and Header
+			if (navigator.userAgent.match(/xcode/i)) {
+				document.getElementById("contents").className = "hideInXcode"
+				document.getElementById("tocContainer").className = "hideInXcode"
+				document.getElementById("top_header").className = "hideInXcode"
+			}
+			
+		</script>
+	</body>
+</html>

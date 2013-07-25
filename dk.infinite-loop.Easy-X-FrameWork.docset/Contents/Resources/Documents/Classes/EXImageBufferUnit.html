@@ -1,0 +1,1056 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="html/html; charset=utf-8" />
+		<title>EXImageBufferUnit Class Reference</title>
+		<meta id="xcode-display" name="xcode-display" content="render"/>
+		<link rel="stylesheet" type="text/css" href="../css/styles.css" media="all" />
+		<link rel="stylesheet" type="text/css" media="print" href="../css/stylesPrint.css" />
+		<meta name="generator" content="appledoc 2.1 (build 858)" />
+	</head>
+	<body>
+		<header id="top_header">
+			<div id="library" class="hideInXcode">
+				<h1><a id="libraryTitle" href="../index.html">Easy-X FrameWork </a></h1>
+				<a id="developerHome" href="../index.html">Infinite Loop</a>
+			</div>
+			
+			<div id="title" role="banner">
+				<h1 class="hideInXcode">EXImageBufferUnit Class Reference</h1>
+			</div>
+			<ul id="headerButtons" role="toolbar">
+				<li id="toc_button">
+					<button aria-label="Show Table of Contents" role="checkbox" class="open" id="table_of_contents"><span class="disclosure"></span>Table of Contents</button>
+				</li>
+				<li id="jumpto_button" role="navigation">
+					<select id="jumpTo">
+	<option value="top">Jump To&#133;</option>
+	
+	<option value="overview">Overview</option>
+	
+	
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+	
+	
+	
+	<option value="properties">Properties</option>
+	
+	<option value="//api/name/curRuning">&nbsp;&nbsp;&nbsp;&nbsp;curRuning</option>
+	
+	<option value="//api/name/curUnitLoadRefreshMode">&nbsp;&nbsp;&nbsp;&nbsp;curUnitLoadRefreshMode</option>
+	
+	<option value="//api/name/dataSource">&nbsp;&nbsp;&nbsp;&nbsp;dataSource</option>
+	
+	<option value="//api/name/delegate">&nbsp;&nbsp;&nbsp;&nbsp;delegate</option>
+	
+	<option value="//api/name/interval">&nbsp;&nbsp;&nbsp;&nbsp;interval</option>
+	
+	<option value="//api/name/isLoadDone">&nbsp;&nbsp;&nbsp;&nbsp;isLoadDone</option>
+	
+	<option value="//api/name/orighArr">&nbsp;&nbsp;&nbsp;&nbsp;orighArr</option>
+	
+	<option value="//api/name/targetDict">&nbsp;&nbsp;&nbsp;&nbsp;targetDict</option>
+	
+	<option value="//api/name/unitRandomKey">&nbsp;&nbsp;&nbsp;&nbsp;unitRandomKey</option>
+	
+	
+	
+	
+	
+	
+	<option value="instance_methods">Instance Methods</option>
+	
+	<option value="//api/name/beginReadDataSourceWithTarget:">&nbsp;&nbsp;&nbsp;&nbsp;- beginReadDataSourceWithTarget:</option>
+	
+	<option value="//api/name/initWithInterval:unitRandomKey:">&nbsp;&nbsp;&nbsp;&nbsp;- initWithInterval:unitRandomKey:</option>
+	
+	<option value="//api/name/pause">&nbsp;&nbsp;&nbsp;&nbsp;- pause</option>
+	
+	<option value="//api/name/run">&nbsp;&nbsp;&nbsp;&nbsp;- run</option>
+	
+	<option value="//api/name/stopAndClearBuffer">&nbsp;&nbsp;&nbsp;&nbsp;- stopAndClearBuffer</option>
+	
+	<option value="//api/name/stopReadDataSource">&nbsp;&nbsp;&nbsp;&nbsp;- stopReadDataSource</option>
+	
+	
+	
+</select>
+				</li>
+			</ul>
+		</header>
+		<nav id="tocContainer" class="isShowingTOC">
+			<ul id="toc" role="tree">
+				
+<li role="treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#overview">Overview</a></span></li>
+
+
+
+
+<li role="treeitem" id="task_treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#tasks">Tasks</a></span><ul>
+	
+</ul></li>
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#properties">Properties</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/curRuning">curRuning</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/curUnitLoadRefreshMode">curUnitLoadRefreshMode</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/dataSource">dataSource</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/delegate">delegate</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/interval">interval</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/isLoadDone">isLoadDone</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/orighArr">orighArr</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/targetDict">targetDict</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/unitRandomKey">unitRandomKey</a></span></li>
+	
+</ul></li>
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#instance_methods">Instance Methods</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/beginReadDataSourceWithTarget:">beginReadDataSourceWithTarget:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/initWithInterval:unitRandomKey:">initWithInterval:unitRandomKey:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/pause">pause</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/run">run</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/stopAndClearBuffer">stopAndClearBuffer</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/stopReadDataSource">stopReadDataSource</a></span></li>
+	
+</ul></li>
+
+
+			</ul>
+		</nav>
+		<article>
+			<div id="contents" class="isShowingTOC" role="main">
+				<a title="EXImageBufferUnit Class Reference" name="top"></a>
+				<div class="main-navigation navigation-top">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="header">
+					<div class="section-header">
+						<h1 class="title title-header">EXImageBufferUnit Class Reference</h1>
+					</div>		
+				</div>
+				<div id="container">	
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<td class="specification-title">Inherits from</td>
+	<td class="specification-value">NSObject</td>
+</tr><tr>
+	<td class="specification-title">Conforms to</td>
+	<td class="specification-value"><a href="../Protocols/EXImageManDelegate.html">EXImageManDelegate</a></td>
+</tr><tr>
+	<td class="specification-title">Declared in</td>
+	<td class="specification-value">EXImageBufferUnit.h</td>
+</tr>
+						</tbody></table></div>
+					
+					
+					
+					
+					<div class="section section-overview">
+						<a title="Overview" name="overview"></a>
+						<h2 class="subtitle subtitle-overview">Overview</h2>
+						<p>图片加载工具的最小单元<br/>
+-功能为实现图片的下载以及完成disc存储<br/>
+-此控件可以单独使用<br/>
+-通过模拟tableView的delegate和datasource方式来完成刷新数据（<a href="#//api/name/delegate">delegate</a> sels）和读取数据源头（datasource sels）</p>
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						<h2 class="subtitle subtitle-tasks">Tasks</h2>
+						
+						
+						
+						
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/dataSource">&nbsp;&nbsp;dataSource</a></code>
+		<span class="tooltip"><p>刷新读取的数据源的代理</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/delegate">&nbsp;&nbsp;delegate</a></code>
+		<span class="tooltip"><p>刷新数据源的代理</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/interval">&nbsp;&nbsp;interval</a></code>
+		<span class="tooltip"><p>设置轮训调用delegate刷新数据的时间(EXImageBufferUnitLoadRefreshMode_RoundRobin)下有效</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/orighArr">&nbsp;&nbsp;orighArr</a></code>
+		<span class="tooltip"><p>datasource对应的数据</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/targetDict">&nbsp;&nbsp;targetDict</a></code>
+		<span class="tooltip"><p>delegate返回的以获取的图片数据(key为pic的url，value为图片)</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/unitRandomKey">&nbsp;&nbsp;unitRandomKey</a></code>
+		<span class="tooltip"><p>唯一标示此unit的标识</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/curRuning">&nbsp;&nbsp;curRuning</a></code>
+		<span class="tooltip"><p>unit是不是正在运行</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/isLoadDone">&nbsp;&nbsp;isLoadDone</a></code>
+		<span class="tooltip"><p>是不是orighArr（数据源）里面对应的图片已经完全加载</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/curUnitLoadRefreshMode">&nbsp;&nbsp;curUnitLoadRefreshMode</a></code>
+		<span class="tooltip"><p>设置按照interval（设置轮训调用delegate刷新数据的时间）来刷新数据还是图片加载完成及时通知目标代理刷新数据</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/initWithInterval:unitRandomKey:">&ndash;&nbsp;initWithInterval:unitRandomKey:</a></code>
+		<span class="tooltip"><p>初始化imgbufferunit</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/run">&ndash;&nbsp;run</a></code>
+		<span class="tooltip"><p>启动imgbufferunit</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/stopAndClearBuffer">&ndash;&nbsp;stopAndClearBuffer</a></code>
+		<span class="tooltip"><p>停止,会清空内存中的图片的缓存</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/pause">&ndash;&nbsp;pause</a></code>
+		<span class="tooltip"><p>暂停,会保留内存中的图片的缓存</p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/stopReadDataSource">&ndash;&nbsp;stopReadDataSource</a></code>
+		<span class="tooltip"><p>停止读取<a href="#//api/name/dataSource">dataSource</a></p></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/beginReadDataSourceWithTarget:">&ndash;&nbsp;beginReadDataSourceWithTarget:</a></code>
+		<span class="tooltip"><p>启动读取<a href="#//api/name/dataSource">dataSource</a>(默认为启动，此方法适用于stopReadDataSource之后想启动读取)</p></span>
+	</span>
+	
+	
+</li>
+						</ul>
+						
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Properties" name="properties"></a>
+						<h2 class="subtitle subtitle-methods">Properties</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/curRuning" title="curRuning"></a>
+	<h3 class="subsubtitle method-title">curRuning</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>unit是不是正在运行</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, assign, readonly) BOOL curRuning</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>unit是不是正在运行</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">EXImageBufferUnit.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/curUnitLoadRefreshMode" title="curUnitLoadRefreshMode"></a>
+	<h3 class="subsubtitle method-title">curUnitLoadRefreshMode</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>设置按照interval（设置轮训调用delegate刷新数据的时间）来刷新数据还是图片加载完成及时通知目标代理刷新数据</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, assign) EXImageBufferUnitLoadRefreshMode curUnitLoadRefreshMode</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>设置按照interval（设置轮训调用delegate刷新数据的时间）来刷新数据还是图片加载完成及时通知目标代理刷新数据</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">EXImageBufferUnit.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/dataSource" title="dataSource"></a>
+	<h3 class="subsubtitle method-title">dataSource</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>刷新读取的数据源的代理</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, assign) id&lt;EXImageBufferUnitDataSource&gt; dataSource</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>刷新读取的数据源的代理</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">EXImageBufferUnit.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/delegate" title="delegate"></a>
+	<h3 class="subsubtitle method-title">delegate</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>刷新数据源的代理</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, assign) id&lt;EXImageBufferUnitDelegate&gt; delegate</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>刷新数据源的代理</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">EXImageBufferUnit.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/interval" title="interval"></a>
+	<h3 class="subsubtitle method-title">interval</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>设置轮训调用delegate刷新数据的时间(EXImageBufferUnitLoadRefreshMode_RoundRobin)下有效</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, assign) NSTimeInterval interval</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>设置轮训调用delegate刷新数据的时间(EXImageBufferUnitLoadRefreshMode_RoundRobin)下有效</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">EXImageBufferUnit.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/isLoadDone" title="isLoadDone"></a>
+	<h3 class="subsubtitle method-title">isLoadDone</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>是不是orighArr（数据源）里面对应的图片已经完全加载</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, assign, readonly) BOOL isLoadDone</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>是不是orighArr（数据源）里面对应的图片已经完全加载</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">EXImageBufferUnit.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/orighArr" title="orighArr"></a>
+	<h3 class="subsubtitle method-title">orighArr</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>datasource对应的数据</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, assign) NSArray *orighArr</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>datasource对应的数据</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">EXImageBufferUnit.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/targetDict" title="targetDict"></a>
+	<h3 class="subsubtitle method-title">targetDict</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>delegate返回的以获取的图片数据(key为pic的url，value为图片)</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain, readonly) NSMutableDictionary *targetDict</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>delegate返回的以获取的图片数据(key为pic的url，value为图片)</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">EXImageBufferUnit.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/unitRandomKey" title="unitRandomKey"></a>
+	<h3 class="subsubtitle method-title">unitRandomKey</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>唯一标示此unit的标识</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, copy, readonly) NSString *unitRandomKey</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>唯一标示此unit的标识</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">EXImageBufferUnit.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Instance Methods" name="instance_methods"></a>
+						<h2 class="subtitle subtitle-methods">Instance Methods</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/beginReadDataSourceWithTarget:" title="beginReadDataSourceWithTarget:"></a>
+	<h3 class="subsubtitle method-title">beginReadDataSourceWithTarget:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>启动读取<a href="#//api/name/dataSource">dataSource</a>(默认为启动，此方法适用于stopReadDataSource之后想启动读取)</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)beginReadDataSourceWithTarget:(id)<em>target</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>target</em></dt>
+			<dd><p>delegate回调的对象</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">EXImageBufferUnit.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/initWithInterval:unitRandomKey:" title="initWithInterval:unitRandomKey:"></a>
+	<h3 class="subsubtitle method-title">initWithInterval:unitRandomKey:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>初始化imgbufferunit</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (id)initWithInterval:(NSTimeInterval)<em>timerInterval</em> unitRandomKey:(NSString *)<em>randomKey</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>timerInterval</em></dt>
+			<dd><p>轮训调用delegate刷新数据的时间(EXImageBufferUnitLoadRefreshMode_RoundRobin)下有效</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>randomKey</em></dt>
+			<dd><p>唯一标示此unit的标识</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>imgbufferunit</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">EXImageBufferUnit.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/pause" title="pause"></a>
+	<h3 class="subsubtitle method-title">pause</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>暂停,会保留内存中的图片的缓存</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)pause</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">EXImageBufferUnit.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/run" title="run"></a>
+	<h3 class="subsubtitle method-title">run</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>启动imgbufferunit</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)run</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">EXImageBufferUnit.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/stopAndClearBuffer" title="stopAndClearBuffer"></a>
+	<h3 class="subsubtitle method-title">stopAndClearBuffer</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>停止,会清空内存中的图片的缓存</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)stopAndClearBuffer</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">EXImageBufferUnit.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/stopReadDataSource" title="stopReadDataSource"></a>
+	<h3 class="subsubtitle method-title">stopReadDataSource</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>停止读取<a href="#//api/name/dataSource">dataSource</a></p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)stopReadDataSource</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">EXImageBufferUnit.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+					</div>
+					
+					
+				</div>
+				<div class="main-navigation navigation-bottom">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="footer">
+					<hr />
+					<div class="footer-copyright">
+						<p><span class="copyright">&copy; 2013 Infinite Loop. All rights reserved. (Last updated: 2013-07-15)</span><br />
+						
+						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.1 (build 858)</a>.</span></p>
+						
+					</div>
+				</div>
+			</div>
+		</article>
+		<script type="text/javascript">
+			function jumpToChange()
+			{
+				window.location.hash = this.options[this.selectedIndex].value;
+			}
+			
+			function toggleTOC()
+			{
+				var contents = document.getElementById('contents');
+				var tocContainer = document.getElementById('tocContainer');
+				
+				if (this.getAttribute('class') == 'open')
+				{
+					this.setAttribute('class', '');
+					contents.setAttribute('class', '');
+					tocContainer.setAttribute('class', '');
+					
+					window.name = "hideTOC";
+				}
+				else
+				{
+					this.setAttribute('class', 'open');
+					contents.setAttribute('class', 'isShowingTOC');
+					tocContainer.setAttribute('class', 'isShowingTOC');
+					
+					window.name = "";
+				}
+				return false;
+			}
+			
+			function toggleTOCEntryChildren(e)
+			{
+				e.stopPropagation();
+				var currentClass = this.getAttribute('class');
+				if (currentClass == 'children') {
+					this.setAttribute('class', 'children open');
+				}
+				else if (currentClass == 'children open') {
+					this.setAttribute('class', 'children');
+				}
+				return false;
+			}
+			
+			function tocEntryClick(e)
+			{
+				e.stopPropagation();
+				return true;
+			}
+			
+			function init()
+			{
+				var selectElement = document.getElementById('jumpTo');
+				selectElement.addEventListener('change', jumpToChange, false);
+				
+				var tocButton = document.getElementById('table_of_contents');
+				tocButton.addEventListener('click', toggleTOC, false);
+				
+				var taskTreeItem = document.getElementById('task_treeitem');
+				if (taskTreeItem.getElementsByTagName('li').length > 0)
+				{
+					taskTreeItem.setAttribute('class', 'children');
+					taskTreeItem.firstChild.setAttribute('class', 'disclosure');
+				}
+				
+				var tocList = document.getElementById('toc');
+				
+				var tocEntries = tocList.getElementsByTagName('li');
+				for (var i = 0; i < tocEntries.length; i++) {
+					tocEntries[i].addEventListener('click', toggleTOCEntryChildren, false);
+				}
+				
+				var tocLinks = tocList.getElementsByTagName('a');
+				for (var i = 0; i < tocLinks.length; i++) {
+					tocLinks[i].addEventListener('click', tocEntryClick, false);
+				}
+				
+				if (window.name == "hideTOC") {
+					toggleTOC.call(tocButton);
+				}
+			}
+			
+			window.onload = init;
+			
+			// If showing in Xcode, hide the TOC and Header
+			if (navigator.userAgent.match(/xcode/i)) {
+				document.getElementById("contents").className = "hideInXcode"
+				document.getElementById("tocContainer").className = "hideInXcode"
+				document.getElementById("top_header").className = "hideInXcode"
+			}
+			
+		</script>
+	</body>
+</html>

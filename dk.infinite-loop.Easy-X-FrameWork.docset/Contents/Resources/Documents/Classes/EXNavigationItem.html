@@ -1,0 +1,927 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="html/html; charset=utf-8" />
+		<title>EXNavigationItem Class Reference</title>
+		<meta id="xcode-display" name="xcode-display" content="render"/>
+		<link rel="stylesheet" type="text/css" href="../css/styles.css" media="all" />
+		<link rel="stylesheet" type="text/css" media="print" href="../css/stylesPrint.css" />
+		<meta name="generator" content="appledoc 2.1 (build 858)" />
+	</head>
+	<body>
+		<header id="top_header">
+			<div id="library" class="hideInXcode">
+				<h1><a id="libraryTitle" href="../index.html">Easy-X FrameWork </a></h1>
+				<a id="developerHome" href="../index.html">Infinite Loop</a>
+			</div>
+			
+			<div id="title" role="banner">
+				<h1 class="hideInXcode">EXNavigationItem Class Reference</h1>
+			</div>
+			<ul id="headerButtons" role="toolbar">
+				<li id="toc_button">
+					<button aria-label="Show Table of Contents" role="checkbox" class="open" id="table_of_contents"><span class="disclosure"></span>Table of Contents</button>
+				</li>
+				<li id="jumpto_button" role="navigation">
+					<select id="jumpTo">
+	<option value="top">Jump To&#133;</option>
+	
+	<option value="overview">Overview</option>
+	
+	
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+	
+	
+	
+	<option value="properties">Properties</option>
+	
+	<option value="//api/name/exDefalutBacButtonTitleColor">&nbsp;&nbsp;&nbsp;&nbsp;exDefalutBacButtonTitleColor</option>
+	
+	<option value="//api/name/exHideDefalutBacButton">&nbsp;&nbsp;&nbsp;&nbsp;exHideDefalutBacButton</option>
+	
+	<option value="//api/name/exLeftBarButtonView">&nbsp;&nbsp;&nbsp;&nbsp;exLeftBarButtonView</option>
+	
+	<option value="//api/name/exNavigationBar">&nbsp;&nbsp;&nbsp;&nbsp;exNavigationBar</option>
+	
+	<option value="//api/name/exNavigationBarBacgoundImage">&nbsp;&nbsp;&nbsp;&nbsp;exNavigationBarBacgoundImage</option>
+	
+	<option value="//api/name/exRightBarButtonView">&nbsp;&nbsp;&nbsp;&nbsp;exRightBarButtonView</option>
+	
+	<option value="//api/name/exTitle">&nbsp;&nbsp;&nbsp;&nbsp;exTitle</option>
+	
+	<option value="//api/name/exTitleColor">&nbsp;&nbsp;&nbsp;&nbsp;exTitleColor</option>
+	
+	<option value="//api/name/exTitleFont">&nbsp;&nbsp;&nbsp;&nbsp;exTitleFont</option>
+	
+	<option value="//api/name/exTitleLabel">&nbsp;&nbsp;&nbsp;&nbsp;exTitleLabel</option>
+	
+	<option value="//api/name/exTitleView">&nbsp;&nbsp;&nbsp;&nbsp;exTitleView</option>
+	
+	
+	
+	
+	
+	
+	<option value="instance_methods">Instance Methods</option>
+	
+	<option value="//api/name/init">&nbsp;&nbsp;&nbsp;&nbsp;- init</option>
+	
+	<option value="//api/name/setExNavBar:">&nbsp;&nbsp;&nbsp;&nbsp;- setExNavBar:</option>
+	
+	
+	
+</select>
+				</li>
+			</ul>
+		</header>
+		<nav id="tocContainer" class="isShowingTOC">
+			<ul id="toc" role="tree">
+				
+<li role="treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#overview">Overview</a></span></li>
+
+
+
+
+<li role="treeitem" id="task_treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#tasks">Tasks</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#task_EXInternal Methods">EXInternal Methods</a></span></li>
+	
+</ul></li>
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#properties">Properties</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/exDefalutBacButtonTitleColor">exDefalutBacButtonTitleColor</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/exHideDefalutBacButton">exHideDefalutBacButton</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/exLeftBarButtonView">exLeftBarButtonView</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/exNavigationBar">exNavigationBar</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/exNavigationBarBacgoundImage">exNavigationBarBacgoundImage</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/exRightBarButtonView">exRightBarButtonView</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/exTitle">exTitle</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/exTitleColor">exTitleColor</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/exTitleFont">exTitleFont</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/exTitleLabel">exTitleLabel</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/exTitleView">exTitleView</a></span></li>
+	
+</ul></li>
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#instance_methods">Instance Methods</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/init">init</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/setExNavBar:">setExNavBar:</a></span></li>
+	
+</ul></li>
+
+
+			</ul>
+		</nav>
+		<article>
+			<div id="contents" class="isShowingTOC" role="main">
+				<a title="EXNavigationItem Class Reference" name="top"></a>
+				<div class="main-navigation navigation-top">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="header">
+					<div class="section-header">
+						<h1 class="title title-header">EXNavigationItem Class Reference</h1>
+					</div>		
+				</div>
+				<div id="container">	
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<td class="specification-title">Inherits from</td>
+	<td class="specification-value">NSObject</td>
+</tr><tr>
+	<td class="specification-title">Declared in</td>
+	<td class="specification-value">EXNavigationItem.h</td>
+</tr>
+						</tbody></table></div>
+					
+					
+					
+					
+					<div class="section section-overview">
+						<a title="Overview" name="overview"></a>
+						<h2 class="subtitle subtitle-overview">Overview</h2>
+						<p>自定义的navigationItem<br/>
+-和开发者设置controller的navbar的一系列属性方式相同，尊重开发者的开发习惯</p>
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						<h2 class="subtitle subtitle-tasks">Tasks</h2>
+						
+						
+						
+						<h3 class="subsubtitle task-title">Other Methods</h3>
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/exNavigationBar">&nbsp;&nbsp;exNavigationBar</a></code>
+		<span class="tooltip"><p>读取当前navigationViewControoler 的 NavigationBar</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/exTitleLabel">&nbsp;&nbsp;exTitleLabel</a></code>
+		<span class="tooltip"><p>读取当前NavigationBar 的 exTitleLabel,切可以直接更改lable的属性设置，达到业务需要</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/exTitle">&nbsp;&nbsp;exTitle</a></code>
+		<span class="tooltip"><p>读取或着设置当前NavigationBar 的 exTitle</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/exTitleFont">&nbsp;&nbsp;exTitleFont</a></code>
+		<span class="tooltip"><p>读取或着设置当前NavigationBar 的 exTitleFont</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/exTitleColor">&nbsp;&nbsp;exTitleColor</a></code>
+		<span class="tooltip"><p>读取或着设置当前NavigationBar 的 exTitleColor</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/exDefalutBacButtonTitleColor">&nbsp;&nbsp;exDefalutBacButtonTitleColor</a></code>
+		<span class="tooltip"><p>读取或着设置当前exDefalutBacButton 的 titleColor;</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/exLeftBarButtonView">&nbsp;&nbsp;exLeftBarButtonView</a></code>
+		<span class="tooltip"><p>读取或着设置当前NavigationBar 的 exLeftBarButtonView</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/exRightBarButtonView">&nbsp;&nbsp;exRightBarButtonView</a></code>
+		<span class="tooltip"><p>读取或着设置当前NavigationBar 的 exRightBarButtonView</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/exTitleView">&nbsp;&nbsp;exTitleView</a></code>
+		<span class="tooltip"><p>读取或着设置当前NavigationBar 的 exTitleView</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/exNavigationBarBacgoundImage">&nbsp;&nbsp;exNavigationBarBacgoundImage</a></code>
+		<span class="tooltip"><p>读取或着设置当前NavigationBar 的 exNavigationBarBacgoundImage</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/exHideDefalutBacButton">&nbsp;&nbsp;exHideDefalutBacButton</a></code>
+		<span class="tooltip"><p>读取或着设置当前NavigationBar是否隐藏默认的返回按钮</p></span>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/init">&ndash;&nbsp;init</a></code>
+		<span class="tooltip"><p>初始化navigationItem</p></span>
+	</span>
+	
+	
+</li>
+						</ul>
+						
+						
+						<a title="EXInternal Methods" name="task_EXInternal Methods"></a>
+						<h3 class="subsubtitle task-title">EXInternal Methods</h3>
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/setExNavBar:">&ndash;&nbsp;setExNavBar:</a></code>
+		
+	</span>
+	
+	
+</li>
+						</ul>
+						
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Properties" name="properties"></a>
+						<h2 class="subtitle subtitle-methods">Properties</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/exDefalutBacButtonTitleColor" title="exDefalutBacButtonTitleColor"></a>
+	<h3 class="subsubtitle method-title">exDefalutBacButtonTitleColor</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>读取或着设置当前exDefalutBacButton 的 titleColor;</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) UIColor *exDefalutBacButtonTitleColor</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>读取或着设置当前exDefalutBacButton 的 titleColor;</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">EXNavigationItem.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/exHideDefalutBacButton" title="exHideDefalutBacButton"></a>
+	<h3 class="subsubtitle method-title">exHideDefalutBacButton</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>读取或着设置当前NavigationBar是否隐藏默认的返回按钮</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, assign) BOOL exHideDefalutBacButton</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>读取或着设置当前NavigationBar是否隐藏默认的返回按钮</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">EXNavigationItem.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/exLeftBarButtonView" title="exLeftBarButtonView"></a>
+	<h3 class="subsubtitle method-title">exLeftBarButtonView</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>读取或着设置当前NavigationBar 的 exLeftBarButtonView</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) UIView *exLeftBarButtonView</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>读取或着设置当前NavigationBar 的 exLeftBarButtonView</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">EXNavigationItem.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/exNavigationBar" title="exNavigationBar"></a>
+	<h3 class="subsubtitle method-title">exNavigationBar</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>读取当前navigationViewControoler 的 NavigationBar</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain, readonly) EXNavigationBar *exNavigationBar</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>读取当前navigationViewControoler 的 NavigationBar</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">EXNavigationItem.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/exNavigationBarBacgoundImage" title="exNavigationBarBacgoundImage"></a>
+	<h3 class="subsubtitle method-title">exNavigationBarBacgoundImage</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>读取或着设置当前NavigationBar 的 exNavigationBarBacgoundImage</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) UIImage *exNavigationBarBacgoundImage</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>读取或着设置当前NavigationBar 的 exNavigationBarBacgoundImage</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">EXNavigationItem.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/exRightBarButtonView" title="exRightBarButtonView"></a>
+	<h3 class="subsubtitle method-title">exRightBarButtonView</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>读取或着设置当前NavigationBar 的 exRightBarButtonView</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) UIView *exRightBarButtonView</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>读取或着设置当前NavigationBar 的 exRightBarButtonView</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">EXNavigationItem.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/exTitle" title="exTitle"></a>
+	<h3 class="subsubtitle method-title">exTitle</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>读取或着设置当前NavigationBar 的 exTitle</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, copy) NSString *exTitle</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>读取或着设置当前NavigationBar 的 exTitle</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">EXNavigationItem.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/exTitleColor" title="exTitleColor"></a>
+	<h3 class="subsubtitle method-title">exTitleColor</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>读取或着设置当前NavigationBar 的 exTitleColor</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) UIColor *exTitleColor</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>读取或着设置当前NavigationBar 的 exTitleColor</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">EXNavigationItem.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/exTitleFont" title="exTitleFont"></a>
+	<h3 class="subsubtitle method-title">exTitleFont</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>读取或着设置当前NavigationBar 的 exTitleFont</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) UIFont *exTitleFont</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>读取或着设置当前NavigationBar 的 exTitleFont</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">EXNavigationItem.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/exTitleLabel" title="exTitleLabel"></a>
+	<h3 class="subsubtitle method-title">exTitleLabel</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>读取当前NavigationBar 的 exTitleLabel,切可以直接更改lable的属性设置，达到业务需要</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain, readonly) UILabel *exTitleLabel</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>读取当前NavigationBar 的 exTitleLabel,切可以直接更改lable的属性设置，达到业务需要</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">EXNavigationItem.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/exTitleView" title="exTitleView"></a>
+	<h3 class="subsubtitle method-title">exTitleView</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>读取或着设置当前NavigationBar 的 exTitleView</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) UIView *exTitleView</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>读取或着设置当前NavigationBar 的 exTitleView</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">EXNavigationItem.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Instance Methods" name="instance_methods"></a>
+						<h2 class="subtitle subtitle-methods">Instance Methods</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/init" title="init"></a>
+	<h3 class="subsubtitle method-title">init</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>初始化navigationItem</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (id)init</code></div>
+
+    
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>navigationItem</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">EXNavigationItem.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/setExNavBar:" title="setExNavBar:"></a>
+	<h3 class="subsubtitle method-title">setExNavBar:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)setExNavBar:(EXNavigationBar *)<em>bar</em></code></div>
+
+    
+</div>
+						
+					</div>
+					
+					
+				</div>
+				<div class="main-navigation navigation-bottom">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="footer">
+					<hr />
+					<div class="footer-copyright">
+						<p><span class="copyright">&copy; 2013 Infinite Loop. All rights reserved. (Last updated: 2013-07-15)</span><br />
+						
+						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.1 (build 858)</a>.</span></p>
+						
+					</div>
+				</div>
+			</div>
+		</article>
+		<script type="text/javascript">
+			function jumpToChange()
+			{
+				window.location.hash = this.options[this.selectedIndex].value;
+			}
+			
+			function toggleTOC()
+			{
+				var contents = document.getElementById('contents');
+				var tocContainer = document.getElementById('tocContainer');
+				
+				if (this.getAttribute('class') == 'open')
+				{
+					this.setAttribute('class', '');
+					contents.setAttribute('class', '');
+					tocContainer.setAttribute('class', '');
+					
+					window.name = "hideTOC";
+				}
+				else
+				{
+					this.setAttribute('class', 'open');
+					contents.setAttribute('class', 'isShowingTOC');
+					tocContainer.setAttribute('class', 'isShowingTOC');
+					
+					window.name = "";
+				}
+				return false;
+			}
+			
+			function toggleTOCEntryChildren(e)
+			{
+				e.stopPropagation();
+				var currentClass = this.getAttribute('class');
+				if (currentClass == 'children') {
+					this.setAttribute('class', 'children open');
+				}
+				else if (currentClass == 'children open') {
+					this.setAttribute('class', 'children');
+				}
+				return false;
+			}
+			
+			function tocEntryClick(e)
+			{
+				e.stopPropagation();
+				return true;
+			}
+			
+			function init()
+			{
+				var selectElement = document.getElementById('jumpTo');
+				selectElement.addEventListener('change', jumpToChange, false);
+				
+				var tocButton = document.getElementById('table_of_contents');
+				tocButton.addEventListener('click', toggleTOC, false);
+				
+				var taskTreeItem = document.getElementById('task_treeitem');
+				if (taskTreeItem.getElementsByTagName('li').length > 0)
+				{
+					taskTreeItem.setAttribute('class', 'children');
+					taskTreeItem.firstChild.setAttribute('class', 'disclosure');
+				}
+				
+				var tocList = document.getElementById('toc');
+				
+				var tocEntries = tocList.getElementsByTagName('li');
+				for (var i = 0; i < tocEntries.length; i++) {
+					tocEntries[i].addEventListener('click', toggleTOCEntryChildren, false);
+				}
+				
+				var tocLinks = tocList.getElementsByTagName('a');
+				for (var i = 0; i < tocLinks.length; i++) {
+					tocLinks[i].addEventListener('click', tocEntryClick, false);
+				}
+				
+				if (window.name == "hideTOC") {
+					toggleTOC.call(tocButton);
+				}
+			}
+			
+			window.onload = init;
+			
+			// If showing in Xcode, hide the TOC and Header
+			if (navigator.userAgent.match(/xcode/i)) {
+				document.getElementById("contents").className = "hideInXcode"
+				document.getElementById("tocContainer").className = "hideInXcode"
+				document.getElementById("top_header").className = "hideInXcode"
+			}
+			
+		</script>
+	</body>
+</html>
