@@ -13,7 +13,7 @@ This is the framework for trustworthy.Because he has already been applied to man
   
 ###Powerful Technology
 
-EX is not only a UI engine, each link will also take him to the client productproduction
+EasyX is not only a UI engine, each link will also take him to the client productproduction
 
 ###Plentiful Interfaces
 
@@ -24,7 +24,7 @@ Application of the MVC module development framework,Also pushing for developers 
   
   
 ###Plentiful Tools
-Includes a plurality of third party tools and many tools, they solve the mostcomplex problem
+Includes a plurality of third party tools and many tools, they solve the mostcompl EasyX problem
   
   
 ###Local Document
@@ -68,7 +68,7 @@ Compressed package dk.infinite-loop.Easy-X-FrameWork.docset is added to the docs
 Restart IDE, you can find Easy-X FrameWork in the organizer documentation.
 
 
-把EX加入你的工程
+把EasyX加入你的工程
 =====
 
 这非常简单，需要开发者支持如下API
@@ -93,7 +93,7 @@ EasyX 自定义了C类别，为了正常运行，这要求配置另外一个连�
 
 设置debug状态
 =====
-EX提供了Debug状态，在打开情况下，屏幕上会出现一个可以浮动的按钮，当单击这个按钮时，屏幕会浮动出Debug窗口，这里面保存了相关您的App的行为轨迹，用图片的方式顺序展现，其中穿插了DLog(...)输出的后台数据。（Dlog(…)是EX用来替代NSLog(…)的，它打印了类名和方法名）
+EasyX提供了Debug状态，在打开情况下，屏幕上会出现一个可以浮动的按钮，当单击这个按钮时，屏幕会浮动出Debug窗口，这里面保存了相关您的App的行为轨迹，用图片的方式顺序展现，其中穿插了DLog(...)输出的后台数据。（Dlog(…)是EasyX用来替代NSLog(…)的，它打印了类名和方法名）
 ![SDK](http://www.easy-x.cn/images/EE93CB1A-9E1F-4A53-95E2-C18798EB6B37.png)
 在工程的info.plist中增加Debugging Form EsayX字段，对应bool值，YES是打开debug状态
 
