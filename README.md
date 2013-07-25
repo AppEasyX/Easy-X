@@ -17,3 +17,4 @@ EX需要开发者支持4.0以上的iOS系统
 将压缩包中的EasyX.framework拖拽到你的文件目录中去
 
 
+![SDK](http://blog.whatsbug.com/wp-content/uploads/2013/04/bee_sdk_1.png)
