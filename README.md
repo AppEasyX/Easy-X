@@ -5,36 +5,29 @@ Thank you for using EasyX Framework for iOS. This guide will help you get starte
 
 [*Learn more.*] [easy-x]
 
-Version
--
+EasyX needs to support more than 4 iOS
 
-0.2
+###The Security Framework
 
-
-The Security Framework
--
 This is the framework for trustworthy.Because he has already been applied to many apple store              products. And weare constantly grinding.
   
-Powerful Technology
--
+###Powerful Technology
+
 EX is not only a UI engine, each link will also take him to the client productproduction
 
-Plentiful Interfaces
--
+###Plentiful Interfaces
+
 We not only the common controller, but also to take into account all kinds of UI control in detail, such as in the status bar hidden for framework adjustment,similar to many.
   
-MVC
--
+###MVC
 Application of the MVC module development framework,Also pushing for developers to design, application frameworks come very naturally choice
   
   
-Plentiful Tools
--
+###Plentiful Tools
 Includes a plurality of third party tools and many tools, they solve the mostcomplex problem
   
   
-Local Document
--
+###Local Document
 Bilingual in Chinese and English documents, (now launched separate Chinesedocument), which greatly saves the communication cost
   
 To add EasyX to your project
