@@ -1,6 +1,6 @@
 EasyX Framework
 =====
-
+***
 Thank you for using EasyX Framework for iOS. This guide will help you get started.
 
 [*Learn more.*] [easy-x]
@@ -9,29 +9,30 @@ EasyX needs to support more than 4 iOS
 
 ###The Security Framework
 
-This is the framework for trustworthy.Because he has already been applied to many apple store              products. And weare constantly grinding.
+*This is the framework for trustworthy.Because he has already been applied to many apple store              products. And weare constantly grinding.*
   
 ###Powerful Technology
 
-EasyX is not only a UI engine, each link will also take him to the client productproduction
+*EasyX is not only a UI engine, each link will also take him to the client productproduction*
 
 ###Plentiful Interfaces
 
-We not only the common controller, but also to take into account all kinds of UI control in detail, such as in the status bar hidden for framework adjustment,similar to many.
+*We not only the common controller, but also to take into account all kinds of UI control in detail, such as in the status bar hidden for framework adjustment,similar to many.*
   
 ###MVC
-Application of the MVC module development framework,Also pushing for developers to design, application frameworks come very naturally choice
+*Application of the MVC module development framework,Also pushing for developers to design, application frameworks come very naturally choice*
   
   
 ###Plentiful Tools
-Includes a plurality of third party tools and many tools, they solve the mostcompl EasyX problem
+*Includes a plurality of third party tools and many tools, they solve the mostcompl EasyX problem*
   
   
 ###Local Document
-Bilingual in Chinese and English documents, (now launched separate Chinesedocument), which greatly saves the communication cost
+*Bilingual in Chinese and English documents, (now launched separate Chinesedocument), which greatly saves the communication cost*
   
 To add EasyX to your project
 =====
+***
 This is very simple, and developers need to support the following API.
 The compressed package EasyX.framework drag and drop your files in the directory.
 
@@ -55,22 +56,28 @@ Search Paths->Framework Search
 
 Setting debug mode
 =====
-
+***
 ![SDK](http://www.easy-x.cn/images/EE93CB1A-9E1F-4A53-95E2-C18798EB6B37.png)
 Increase the Debugging Form field in the EsayX project of info.plist, the corresponding bool value, YES is open debug state
 
 Add a document
 =====
-![SDK](http://www.easy-x.cn/images/EE93CB1A-9E1F-4A53-95E2-C18798EB6B37.png)
+***
+![SDK](http://www.easy-x.cn/images/E0C319DD-6D3D-49A0-8F59-589F689B2ADB.png)
 Compressed package dk.infinite-loop.Easy-X-FrameWork.docset is added to the docset file
 
 ![SDK](http://www.easy-x.cn/images/C4FAB052-B0B0-40CD-92E5-674A16DF6C32.png)
 Restart IDE, you can find Easy-X FrameWork in the organizer documentation.
 
 
+***
+***
+***
+
+
 把EasyX加入你的工程
 =====
-
+***
 这非常简单，需要开发者支持如下API
 将压缩包中的EasyX.framework拖拽到你的文件目录中去
 
@@ -93,13 +100,15 @@ EasyX 自定义了C类别，为了正常运行，这要求配置另外一个连�
 
 设置debug状态
 =====
+***
 EasyX提供了Debug状态，在打开情况下，屏幕上会出现一个可以浮动的按钮，当单击这个按钮时，屏幕会浮动出Debug窗口，这里面保存了相关您的App的行为轨迹，用图片的方式顺序展现，其中穿插了DLog(...)输出的后台数据。（Dlog(…)是EasyX用来替代NSLog(…)的，它打印了类名和方法名）
 ![SDK](http://www.easy-x.cn/images/EE93CB1A-9E1F-4A53-95E2-C18798EB6B37.png)
 在工程的info.plist中增加Debugging Form EsayX字段，对应bool值，YES是打开debug状态
 
 添加API文档
 =====
-![SDK](http://www.easy-x.cn/images/EE93CB1A-9E1F-4A53-95E2-C18798EB6B37.png)
+***
+![SDK](http://www.easy-x.cn/images/E0C319DD-6D3D-49A0-8F59-589F689B2ADB.png)
 压缩包中的dk.infinite-loop.Easy-X-FrameWork.docset加入到 docset文件中
 
 ![SDK](http://www.easy-x.cn/images/C4FAB052-B0B0-40CD-92E5-674A16DF6C32.png)
